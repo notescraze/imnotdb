@@ -1,0 +1,6 @@
+body {
+  background-color: hsl(200, 20%, 10%);
+}
+* {
+  color: hsl(200, 20%, 90%);
+}
