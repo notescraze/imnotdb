@@ -9,7 +9,7 @@ export default function DarkModeSwitch() {
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true), [];
-  });
+  }, []);
   return (
     <>
       {mounted && currentTheme === "dark" ? (
