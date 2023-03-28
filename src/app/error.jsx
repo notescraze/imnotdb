@@ -10,7 +10,7 @@ export default function Error({ error, reset }) {
     <div className="text-center mt-10">
       <h1>Something went wrong sad</h1>
       <button className="hover:text-amber-600" onClick={() => reset()}>
-        Try Again
+        Refresh Page
       </button>
     </div>
   );
